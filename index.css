@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 90rem;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family: 'Concert One', sans-serif;
+    letter-spacing: 1.5px;
+    text-indent: -7rem;
+}
+
+.chore-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+input,
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 3.2rem;
+    font-size: 3rem;
+    font-family: inherit;
+    text-align: center;
+}
+
+input {
+    background-color: #EEEEEE;
+    color: #A4A4A4;
+    width: 60%;
+    letter-spacing: 0.5px;
+}
+
+button {
+    cursor: pointer;
+    width: 20%;
+    min-width: 8.8rem;
+}
+
+
+
+#add-chore-btn {
+    background-color: #FFCC68;
+}
+
+#remove-chore-btn {
+    background-color: #FF9548;
+}
+
+#add-chore-btn:hover {
+    opacity: 0.8;
+}
+
+#remove-chore-btn:hover {
+    opacity: 0.8;
+}
+
+.chores {
+    margin: 1.6rem 0;
+}
+
+.chore {
+
+    cursor: pointer;
+    font-size: 3rem;
+    font-family: inherit;
+    background-color: #FBDF7C;
+    padding: 3.2rem;
+    border-radius: 10px;
+    margin-bottom: 1.6rem;
+}
+
+.chore:last-child {
+    margin-bottom: 0;
+}
